@@ -1,0 +1,9 @@
+jupyter
+numpy
+pandas
+geopandas
+couchdb
+geopandas
+networkx
+pyusps
+scipy
