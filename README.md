@@ -8,7 +8,7 @@ Build this container locally using Docker:
 docker build -t hermetic-jupyter .
 ```
 
-Then run, mapping the port, and wherever you store your Jupyter notebooks:
+Then run, mapping the port, and binding wherever you store your Jupyter notebooks:
 
 ```
 docker run -d -p 8888:8888 --mount type=bind,source=/Users/nick/Dev,target=/Users/nick/Dev hermetic-jupyter
