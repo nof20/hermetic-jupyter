@@ -1,4 +1,4 @@
-FROM ubuntu:artful
+FROM ubuntu:latest
 
 RUN apt-get update
 
